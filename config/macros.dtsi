@@ -2,7 +2,7 @@ macro_shiftinsert: macro_shiftinsert{
 compatible = "zmk,behavior-macro";
 label = "macro_shiftinsert";
 #binding-cells = <0>;
-bindings = <&kp LSHIFT>, <&kp INSERT>, <&kp LSHIFT>;
+bindings = <&kp LS(INSERT)>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
